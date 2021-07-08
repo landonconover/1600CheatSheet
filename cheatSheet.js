@@ -192,6 +192,13 @@ let myFilteredArr = sampleData2.filter((item) => {
 //     gender: 'Female',
 //     favItem: 'Cheese - Swiss' } ]
 
+//Reduce - The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+let totalId = sampleData2.reduce((acc, item) => {
+    return acc + item.id
+}, 0)
+
+totalId
+
 //DOM (Document Object Model) Manipulation
 
 //get an element to manipulate
