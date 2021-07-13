@@ -31,7 +31,6 @@ jokeArray.forEach((joke) => {
     <p>Punchline here</p>
 </div> */
 
-
 jokes.forEach((jokeObj) => {
     //select an element from the HTML to append to
     let rootEl = document.querySelector('#jokes');
@@ -56,5 +55,4 @@ jokes.forEach((jokeObj) => {
 
     rootEl.append(contaierDiv)
 
-    
 })
